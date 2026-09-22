@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: white;
+}
+
+/* Header */
+header {
+    background-color: #111111;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: red;
+}
+
+header p {
+    color: #cccccc;
+}
+
+/* Navigasi */
+nav {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: red;
+}
+
+/* Isi halaman */
+.container {
+    width: 85%;
+    margin: 30px auto;
+}
+
+.judul {
+    text-align: center;
+    color: red;
+}
+
+/* Home */
+.home {
+    text-align: center;
+}
+
+.home img {
+    width: 300px;
+    margin: 20px;
+}
+
+.home p {
+    line-height: 1.6;
+}
+
+/* Profil */
+.profil {
+    background-color: #151515;
+    padding: 25px;
+    line-height: 1.7;
+}
+
+.profil h2 {
+    color: red;
+}
+
+/* Movies */
+.movie {
+    background-color: #151515;
+    padding: 20px;
+    margin-bottom: 25px;
+    overflow: auto;
+}
+
+.movie img {
+    width: 180px;
+    height: 250px;
+    object-fit: cover;
+    float: left;
+    margin-right: 20px;
+}
+
+.movie h2 {
+    color: red;
+}
+
+/* Gallery */
+.gallery {
+    text-align: center;
+}
+
+.gallery img {
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+/* Kontak */
+.kontak {
+    background-color: #151515;
+    padding: 25px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: #222222;
+    color: white;
+    border: 1px solid #555555;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #111111;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    color: #aaaaaa;
+}
